@@ -18,7 +18,7 @@ public class App
         BufferedWriter bw;
         if(archivo.exists()) {
             bw = new BufferedWriter(new FileWriter(archivo));
-            bw.write("El fichero de texto ya estaba creados.");
+            bw.write("El fichero de texto ya estaba creadoss.");
         } else {
             bw = new BufferedWriter(new FileWriter(archivo));
             bw.write("Acabo de crear el fichero de textoss.");

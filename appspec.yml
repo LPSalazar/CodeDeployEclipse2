@@ -6,10 +6,7 @@ files:
      
 hooks:
    BeforeInstall:
-    - location: scripts/installapache.sh
-      runas: root
-    - location: scripts/startapache.sh
-      runas: root
+   
    AfterInstall:
-    - location: scripts/restartapache.sh
+    - location: scripts/inicio.sh
       runas: roo

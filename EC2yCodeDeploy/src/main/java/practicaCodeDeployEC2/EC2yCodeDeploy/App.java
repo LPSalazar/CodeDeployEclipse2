@@ -13,7 +13,7 @@ public class App
 {
     public static void main( String[] args ) throws IOException
     {
-    	String ruta = "/home/mario/archivo.txt";
+    	String ruta = "/home/ec2-user/CodeDeployEjemploEC2/resultado/archivo.txt";
         File archivo = new File(ruta);
         BufferedWriter bw;
         if(archivo.exists()) {

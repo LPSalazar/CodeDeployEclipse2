@@ -13,15 +13,15 @@ public class App
 {
     public static void main( String[] args ) throws IOException
     {
-    	String ruta = "/home/mario/archivo.txt";
+    	String ruta = "/home/ec2-user/CodeDeployEjemploEC2/resultado/archivo.txt";
         File archivo = new File(ruta);
         BufferedWriter bw;
         if(archivo.exists()) {
             bw = new BufferedWriter(new FileWriter(archivo));
-            bw.write("El fichero de texto ya estaba creados.");
+            bw.write("El fichero de texto ya estaba creadoss.");
         } else {
             bw = new BufferedWriter(new FileWriter(archivo));
-            bw.write("Acabo de crear el fichero de texto.");
+            bw.write("Acabo de crear el fichero de textoss.");
         }
         bw.close();
     }

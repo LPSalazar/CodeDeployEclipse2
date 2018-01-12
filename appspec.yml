@@ -8,5 +8,5 @@ hooks:
    BeforeInstall:
    
    AfterInstall:
-    - location: scripts/inicio.sh
+    - location: scripts/iniciar.sh
       runas: roo

@@ -2,15 +2,8 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html
-permissions:
-   - object: /var/www/html
-     pattern: "**"
-     owner: apache
-     group: apache
-     mode: 755
-     type:
-       - file
+     destination: /home/ec2-user/proyectos
+     
 hooks:
    BeforeInstall:
     - location: scripts/installapache.sh

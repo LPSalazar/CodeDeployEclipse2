@@ -21,7 +21,7 @@ public class App
             bw.write("El fichero de texto ya estaba creados.");
         } else {
             bw = new BufferedWriter(new FileWriter(archivo));
-            bw.write("Acabo de crear el fichero de texto.");
+            bw.write("Acabo de crear el fichero de textos.");
         }
         bw.close();
     }

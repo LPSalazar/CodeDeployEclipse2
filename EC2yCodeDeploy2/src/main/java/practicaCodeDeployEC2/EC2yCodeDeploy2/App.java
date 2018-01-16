@@ -21,7 +21,7 @@ public class App
             bw.write("El fichero de texto ya estaba creados, pero se hizo con el 	CodeDeploy y pipeline514545454!!!!.");
         } else {
             bw = new BufferedWriter(new FileWriter(archivo));
-            bw.write("Acaedio del CodeDeploy, pero ahora se actualizo con pipeline !!!!!.");
+            bw.write("Acaedio del , pero ahora se actualizo con pipeline !!!!!.");
         }
         bw.close();
     }
